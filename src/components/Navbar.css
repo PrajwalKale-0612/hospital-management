@@ -1,0 +1,28 @@
+
+
+.fw-bold
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin
+{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.admin i{
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+
+
+h4{
+    background-color: rgb(51, 55, 68);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}

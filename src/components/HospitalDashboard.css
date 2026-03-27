@@ -1,0 +1,74 @@
+/* Page */
+.dashboard {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eef2f7, #e3ecf7);
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+/* Stat Cards */
+.stat-card {
+    color: #fff;
+}
+
+.stat-card h6 {
+    opacity: 0.9;
+    margin-bottom: 4px;
+}
+
+.stat-card h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Stat Card Colors */
+.patients {
+    background: linear-gradient(45deg, #3b82f6, #2563eb);
+}
+
+.doctors {
+    background: linear-gradient(45deg, #10b981, #059669);
+}
+
+.appointments {
+    background: linear-gradient(45deg, #f59e0b, #d97706);
+}
+
+.beds {
+    background: linear-gradient(45deg, #ef4444, #dc2626);
+}
+
+/* Titles */
+.card-title {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* Lists */
+.list-group-item {
+    border: none;
+    background: #f8fafc;
+    margin-bottom: 6px;
+    border-radius: 8px;
+}
+
+/* Billing rows */
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.info-row strong {
+    color: #0d6efd;
+}
