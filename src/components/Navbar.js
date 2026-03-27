@@ -16,21 +16,10 @@ function Navbar() {
                 <div className="container-fluid">
                     <ul className="navbar-nav me-auto">
 
-                        <li>
-                            <Link to="/dashboard" className="nav-link">Home</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/patient" className="nav-link">Patient</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/doctor" className="nav-link">Doctor</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/appointmentform" className="nav-link">Appointments</Link>
-                        </li>
+                        <li><Link to="/dashboard" className="nav-link">Home</Link></li>
+                        <li><Link to="/patient" className="nav-link">Patient</Link></li>
+                        <li><Link to="/doctor" className="nav-link">Doctor</Link></li>
+                        <li><Link to="/appointmentform" className="nav-link">Appointments</Link></li>
 
                     </ul>
                 </div>
