@@ -4,13 +4,7 @@ import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./HospitalDashboard.css";
-import {
-    FaUserInjured,
-    FaUserMd,
-    FaCalendarCheck,
-    FaBed,
-    FaRupeeSign,
-} from "react-icons/fa";
+
 
 export default function HospitalDashboard() {
     const [todayCount, setTodayCount] = useState(0);
