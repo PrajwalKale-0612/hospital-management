@@ -22,7 +22,7 @@ export default function Doctor() {
                 <br /><br />
                 <li className="list-group-item bg-warning-subtle">
                     <p><strong>Name:</strong><i className="fas fa-user-md text-primary"></i> Dr. A. Kumar</p>
-                    <p><strong>Age:</strong> 3</p>
+                    <p><strong>Age:</strong> 30</p>
                     <p><strong>Gender:</strong> Male</p>
                     <p><strong>Specialist:</strong> Cardiologist</p>
                     <p><strong>Today's Appointments:</strong> 08</p>
