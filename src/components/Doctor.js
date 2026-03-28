@@ -1,16 +1,14 @@
 
 
-
-
-
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Doctor() {
     return (
-        <div className="card-body">
-            <ul className="list-group list-group-flush">
+        <div className="container mt-4">
+            <h3>Doctor List</h3>
 
+            <ul className="list-group">
                 <li className="list-group-item bg-warning-subtle">
                     <p><strong>Name:</strong><i className="fas fa-user-md text-primary"></i> Dr. Priya Desai</p>
                     <p><strong>Age:</strong> 38</p>
@@ -47,7 +45,5 @@ export default function Doctor() {
                 </li>
             </ul>
         </div>
-
-
-    )
-};
+    );
+}
