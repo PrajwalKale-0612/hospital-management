@@ -22,7 +22,7 @@ function Layout() {
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<HospitalDashboard />} />
         <Route path="/patient" element={<Patient />} />
-        <Route path="/dashboard/patient" element={<Patient />} />
+        <Route path="/dashboard//patient" element={<Patient />} />
         <Route path="/patient/:id" element={<PatientDetails />} />
         <Route path="/doctor" element={<Doctor />} />
         <Route path="/appointmentform" element={<AppointmentForm />} />
